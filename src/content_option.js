@@ -13,7 +13,7 @@ const introdata = {
   },
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-  your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+  your_img_url: "/hope.jpg",
 };
 
 const dataabout = {
