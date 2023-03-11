@@ -31,11 +31,11 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p className="about-desc">{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+        {/* <Row className=" sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
@@ -54,7 +54,7 @@ export const About = () => {
               </tbody>
             </table>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
@@ -89,6 +89,14 @@ export const About = () => {
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
+                  <ul>
+                    <li className="data-lists">{data.list1}</li>
+                    <li className="data-lists">{data.list2}</li>
+                    <li className="data-lists">{data.list3}</li>
+                    <li className="data-lists">{data.list4}</li>
+                    <li className="data-lists">{data.list5}</li>
+                  </ul>
+                  <p>{data.P}</p>
                 </div>
               );
             })}
