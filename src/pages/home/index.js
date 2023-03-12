@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
@@ -6,6 +6,25 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+  const backgroundImageRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          backgroundImageRef.current.style.backgroundImage = `url(${introdata.your_img_url})`;
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    observer.observe(backgroundImageRef.current);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -16,8 +35,16 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
+            ref={backgroundImageRef}
             className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            style={{
+              backgroundImage: "none",
+              // width: "100%",
+              // height: "100%",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundColor: "gray",
+            }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
