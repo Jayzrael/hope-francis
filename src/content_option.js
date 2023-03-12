@@ -41,25 +41,33 @@ const worktimeline = [
 
 const skills = [
   {
-    name: "Figma",
+    name: "UI design",
     value: 90,
   },
-  // {
-  //   name: "Djano",
-  //   value: 85,
-  // },
-  // {
-  //   name: "Javascript",
-  //   value: 80,
-  // },
-  // {
-  //   name: "React",
-  //   value: 60,
-  // },
-  // {
-  //   name: "Jquery",
-  //   value: 85,
-  // },
+  {
+    name: "Sketching",
+    value: 85,
+  },
+  {
+    name: "Wireframing",
+    value: 80,
+  },
+  {
+    name: "Graphics design",
+    value: 90,
+  },
+  {
+    name: "Interaction design",
+    value: 85,
+  },
+  {
+    name: "Responsive web design",
+    value: 85,
+  },
+  {
+    name: "Prototyping",
+    value: 85,
+  },
 ];
 
 const services = [
@@ -93,77 +101,24 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "/dashboard.png",
+    desctiption: "",
+    link: "https://www.figma.com/file/p8vm2ysEC1wsMF9Dj6oEnQ/Dashboard?node-id=0%3A1&t=jcv2emkzbBeXqWML-0",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "/landingpage.png",
+    desctiption: "",
+    link: "https://www.figma.com/file/VIFKGuOMBCHPVbf7fus3rP/Landing-page?t=jcv2emkzbBeXqWML-0",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "/loginmac.png",
+    desctiption: "",
+    link: "https://www.figma.com/file/FwwEG3iyJle6UJMbapDmge/Login-Page-(macbook)?t=jcv2emkzbBeXqWML-0",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "/loginphone.png",
+    desctiption: "",
+    link: "https://www.figma.com/file/eaLQkEAP6x9K52S88ZnmBZ/Login-Page-(phone)?t=jcv2emkzbBeXqWML-0",
   },
 ];
 
