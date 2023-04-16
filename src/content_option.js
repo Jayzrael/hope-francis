@@ -101,6 +101,11 @@ const services = [
 
 const dataportfolio = [
   {
+    img: "/mobile.png",
+    desctiption: "Mobile App",
+    link: "https://www.figma.com/file/i1Q0OOen7WYHNbMLJL4aCd/Mobile-design?node-id=0-1&t=GDJi4nAf0pxqRDwb-0",
+  },
+  {
     img: "/dashboard.png",
     desctiption: "Dashboard",
     link: "https://www.figma.com/file/p8vm2ysEC1wsMF9Dj6oEnQ/Dashboard?node-id=0%3A1&t=jcv2emkzbBeXqWML-0",
@@ -119,11 +124,6 @@ const dataportfolio = [
     img: "/loginphone.png",
     desctiption: "Login page on android",
     link: "https://www.figma.com/file/eaLQkEAP6x9K52S88ZnmBZ/Login-Page-(phone)?t=jcv2emkzbBeXqWML-0",
-  },
-  {
-    img: "/mobile.png",
-    desctiption: "Mobile App",
-    link: "https://www.figma.com/file/i1Q0OOen7WYHNbMLJL4aCd/Mobile-design?node-id=0-1&t=GDJi4nAf0pxqRDwb-0",
   },
 ];
 
