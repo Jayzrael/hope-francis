@@ -102,29 +102,34 @@ const services = [
 const dataportfolio = [
   {
     img: "/dashboard.png",
-    desctiption: "",
+    desctiption: "Dashboard",
     link: "https://www.figma.com/file/p8vm2ysEC1wsMF9Dj6oEnQ/Dashboard?node-id=0%3A1&t=jcv2emkzbBeXqWML-0",
   },
   {
     img: "/landingpage.png",
-    desctiption: "",
+    desctiption: "Landing page",
     link: "https://www.figma.com/file/VIFKGuOMBCHPVbf7fus3rP/Landing-page?t=jcv2emkzbBeXqWML-0",
   },
   {
     img: "/loginmac.png",
-    desctiption: "",
+    desctiption: "Loging page on mac",
     link: "https://www.figma.com/file/FwwEG3iyJle6UJMbapDmge/Login-Page-(macbook)?t=jcv2emkzbBeXqWML-0",
   },
   {
     img: "/loginphone.png",
-    desctiption: "",
+    desctiption: "Login page on android",
     link: "https://www.figma.com/file/eaLQkEAP6x9K52S88ZnmBZ/Login-Page-(phone)?t=jcv2emkzbBeXqWML-0",
+  },
+  {
+    img: "/mobile.png",
+    desctiption: "Mobile App",
+    link: "https://www.figma.com/file/i1Q0OOen7WYHNbMLJL4aCd/Mobile-design?node-id=0-1&t=GDJi4nAf0pxqRDwb-0",
   },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "hhopefrancis@gmail.com",
-  YOUR_FONE: "+2349034537949",
+  YOUR_FONE: "+2348077161128  +2349034537949",
   description:
     "If you're looking to create an intuitive and engaging digital experience for your users, please don't hesitate to contact me! I'm excited to collaborate with you to bring your vision to life.",
   // creat an emailjs.com account
